@@ -6,8 +6,8 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = []
-        nums = sorted(nums)
-        for i in range(len(nums)):
+        nums = nums.sort()
+        for i in range(len(nums)-2):
             if i > 0 and nums[i] == nums[i - 1]:
                 continue  # skip duplicate i
 
