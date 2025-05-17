@@ -1,5 +1,5 @@
 # Problem: https://neetcode.io/problems/top-k-elements-in-list
-
+# make use of default dict/ counter
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         hashMap = {}
