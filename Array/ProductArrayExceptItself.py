@@ -1,5 +1,5 @@
 # Problem: https://neetcode.io/problems/products-of-array-discluding-self
-
+# can we not use hashL and hashR as 2 separate lists?
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         prodL, prodR = 1, 1
