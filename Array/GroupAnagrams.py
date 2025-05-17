@@ -1,5 +1,5 @@
 # Problem: https://neetcode.io/problems/anagram-groups
-
+# Can we do better?
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         hashMap = {} #string -> list
